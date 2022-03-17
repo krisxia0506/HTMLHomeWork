@@ -1,0 +1,109 @@
+body{
+    background: #9eeeb5;  /*设置背景*/
+
+}
+.top-bar{
+    height: 60px;
+    width: 1200px;
+    margin:0 auto;
+    position: relative;
+}
+#logo{
+    position: absolute;/*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。*/
+    height:50px;
+    width: 50px;
+    margin:5px 5px;
+    left:80px;
+    top:-8px;
+}
+#menu{
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+#menu ul{
+
+    height: 100px;
+    width: 80%;
+    list-style-type: none;/* 将默认的列表符号去掉 */
+    background: bisque;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content:center;
+
+}
+#menu li{
+    font-size: 30px;
+    margin:20px;
+    float: left;
+    list-style-type: none;/* 将默认的列表符号去掉 */
+    display: inline-block;
+
+}
+#menu li a {
+    display:block; /* 将链接设为块级元素 */
+    width:150px; /* 设置宽度 */
+    height:40px; /* 设置高度 */
+    line-height:30px; /* 设置行高，将行高和高度设置同一个值，可以让单行文本垂直居中 */
+    text-align:center; /* 居中对齐文字 */
+    background: #9eeeb5; /* 设置背景色 */
+    color:#fff; /* 设置文字颜色 */
+    text-decoration:none; /* 去掉下划线 */
+    border:1px solid #27c200; /* 加上分隔线 */
+
+}
+#menu li a:hover {
+    background:#146C9C; /* 变换背景色 */
+    color:#fff; /* 变换文字颜色 */
+}
+
+#r2{width: 910px;
+    height:auto;
+    clear:both;
+    padding:0px;
+    border:0px solid black;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;
+    top: 100px;
+}
+
+#r2 ul{
+    width: 200%;
+    height: 100%;
+    animation: picmove 10s linear infinite ;/*infinite : 指定动画应该播放无限次（永远）*/
+
+    list-style: none;
+}
+@keyframes  picmove {/*关键帧  关键帧所应用到的对象*/
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(-750px);
+    }
+}
+#r2 img {
+    width: 290px;
+    height: 200px;
+    float: left;
+}
+#r2 ul:hover {
+    animation-play-state: paused;
+}
+
+#bottom{height: 99px;
+    border-top:1px solid black;
+    text-align:center;
+    color:black;
+    position: relative;
+    top: 120px;
+}
+
+#fanhuishouye{
+    text-align: center;
+    font-size: 30px;
+}

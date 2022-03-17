@@ -1,0 +1,25 @@
+#form1{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+form{
+    margin: auto;
+}
+input{
+    font-size: 20px;
+}
+ul{
+
+    height: 100px;
+
+    list-style-type: none;/* 将默认的列表符号去掉 */
+    display:flex;
+    justify-content:center;
+
+}
