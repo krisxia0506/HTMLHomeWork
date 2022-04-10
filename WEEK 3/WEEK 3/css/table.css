@@ -4,4 +4,8 @@
 }
 table{
     margin: auto;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow:  41px -41px 45px #848484,
+    -41px 41px 45px #ffffff;
 }
