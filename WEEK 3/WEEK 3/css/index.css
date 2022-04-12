@@ -3,10 +3,11 @@ body{
 
 }
 .top-bar{
-    height: 60px;
+    height: 100px;
     width: 1200px;
     margin:0 auto;
     position: relative;
+    background: bisque;
 }
 #logo{
     position: absolute;/*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。*/
@@ -16,6 +17,11 @@ body{
     left:80px;
     top:-8px;
 }
+
+#hit{
+    height: 10px;
+    text-align: center;
+}
 #menu{
     height: 100px;
     width: 80%;
@@ -24,10 +30,10 @@ body{
 }
 #menu ul{
 
-    height: 100px;
+
     width: 80%;
     list-style-type: none;/* 将默认的列表符号去掉 */
-    background: bisque;
+
     margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
@@ -68,7 +74,7 @@ body{
     top: 100px;
 }
 #page-wrapper {
-    margin: 0 auto;
+    margin:auto;
     width: 80%;
 / / 宽度占页面的
 }
@@ -126,9 +132,6 @@ body{
 }
 
 #fanhuishouye{
+text-align: center;
 
-    border-radius: 50%;
-    background: #e0e0e0;
-    box-shadow:  41px -41px 45px #848484,
-    -41px 41px 45px #ffffff;
 }
