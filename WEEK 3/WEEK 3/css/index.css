@@ -19,8 +19,11 @@ body{
 }
 
 #hit{
-    height: 10px;
+    background: #00f0ff;
+    width: 1000px;
+    height: 100px;
     text-align: center;
+    margin: auto;
 }
 #menu{
     height: 100px;
@@ -30,24 +33,18 @@ body{
 }
 #menu ul{
 
-
     width: 80%;
     list-style-type: none;/* 将默认的列表符号去掉 */
 
     margin-top: 6%;
     margin-left: auto;
     margin-right: auto;
-    display:flex;
-    justify-content:center;
 
 }
 #menu li{
     font-size: 30px;
     margin:20px;
     float: left;
-    list-style-type: none;/* 将默认的列表符号去掉 */
-    display: inline-block;
-
 }
 #menu li a {
     display:block; /* 将链接设为块级元素 */
@@ -58,7 +55,7 @@ body{
     background: #9eeeb5; /* 设置背景色 */
     color:#fff; /* 设置文字颜色 */
     text-decoration:none; /* 去掉下划线 */
-    border:1px solid #27c200; /* 加上分隔线 */
+    border:1px solid #0a0a0a; /* 加上分隔线 */
 
 }
 #menu li a:hover {
@@ -76,6 +73,7 @@ body{
 #page-wrapper {
     margin:auto;
     width: 80%;
+
 / / 宽度占页面的
 }
 #left{
@@ -94,7 +92,7 @@ body{
     height: 500px;
     background: #ffcccc;
     margin-left:250px;
-    margin-top:100px;
+
 
 }
 
@@ -128,10 +126,13 @@ body{
     text-align:center;
     color:black;
     position: relative;
-    top: 120px;
+    top: 200px;
 }
 
 #fanhuishouye{
-text-align: center;
-
+    background: #00f0ff;
+    height: auto;
+    width: 100px;
+    text-align: center;
+    margin: auto;
 }

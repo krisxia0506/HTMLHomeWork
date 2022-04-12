@@ -1,3 +1,6 @@
+body{
+    background-image: url("https://api.dujin.org/bing/1920.php");
+}
 #form1{
     position: fixed;
     width: 200px;
@@ -24,4 +27,11 @@ ul{
     display:flex;
     justify-content:center;
 
+}
+#fanhuishouye{
+    background: #00f0ff;
+    height: auto;
+    width: 100px;
+    text-align: center;
+    margin: auto;
 }
