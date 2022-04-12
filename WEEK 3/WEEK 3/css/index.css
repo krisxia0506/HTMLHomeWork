@@ -62,14 +62,36 @@ body{
 
 #r2{width: 910px;
     height:auto;
-    clear:both;
-    padding:0px;
-    border:0px solid black;
     overflow: hidden;
     margin:0 auto;
     position: relative;
     top: 100px;
 }
+#page-wrapper {
+    margin: 0 auto;
+    width: 80%;
+/ / 宽度占页面的
+}
+#left{
+    width:200px;
+    height:500px;
+    background: #ccffff;
+    float: left;
+    text-align:center; /* 居中对齐文字 */
+}
+#left ul li{
+    list-style-type: none;/* 将默认的列表符号去掉 */
+    margin: 50% auto 50%;
+
+}
+#right{
+    height: 500px;
+    background: #ffcccc;
+    margin-left:250px;
+    margin-top:100px;
+
+}
+
 
 #r2 ul{
     width: 200%;
